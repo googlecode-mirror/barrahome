@@ -2,4 +2,6 @@ Download TinyMCE from:
 
 http://tinymce.moxiecode.com/download.php
 
-and move to doc root.
+and move tinymce folder to doc root.
+
+
