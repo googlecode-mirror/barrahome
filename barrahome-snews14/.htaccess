@@ -1,0 +1,24 @@
+<IfModule mod_php4.c>
+	php_value session.use_trans_sid 0
+</IfModule>
+
+RewriteEngine On
+RewriteRule ^categories/$ index.php?category=categories [L,QSA]
+RewriteRule ^contact/$ index.php?category=contact [L,QSA]
+RewriteRule ^images/$ index.php?category=images [L,QSA]
+RewriteRule ^login/$ index.php?category=login [L,QSA]
+RewriteRule ^logout/$ index.php?category=logout [L,QSA]
+RewriteRule ^new/$ index.php?category=new [L,QSA]
+RewriteRule ^rss/$ index.php?category=rss [L,QSA]
+RewriteRule ^unpublished/$ index.php?category=unpublished [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} -f 
+RewriteRule ^(.*) $1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ index.php?category=$1 [L]
+RewriteRule ^mod/(.*)$ index.php?mod=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z_]+)/([^/]+)/ index.php?category=$1&title=$2 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-z_]+)/([^/]+)/([^/]+)/ index.php?category=$1&title=$2&commentspage=$3 [L]

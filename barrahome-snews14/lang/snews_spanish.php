@@ -1,0 +1,132 @@
+<?php
+//********************
+// LANGUAGE VARIABLES
+//********************
+
+$l['home'] = "Principal";
+$l['archives'] = "Archivo";
+$l['rss_feed'] = "RSS Feed";
+$l['contact'] = "Contacto";
+$l['search_button'] = "Buscar";
+$l['search_results'] = "Resultados de Busqueda:";
+$l['charerror'] = "At least 4 characters are needed to perform the search.";
+$l['noresults'] = "No se encontraron resultados ";
+$l['resultsfound'] = "Se encontraron resultados ";
+$l['recent_articles'] = "Lo nuevo... ";
+$l['addcomment'] = "Comentalo!";
+$l['comments'] = "Comentarios";
+$l['comment'] = "Comentario";
+$l['first_page'] = "Primero";
+$l['last_page'] = "Ultimo";
+$l['previous_page'] = "Anterior";
+$l['next_page'] = "Siguiente";
+$l['name'] = "Nombre";
+$l['sendcomment'] = "Enviar";
+$l['comment_sent'] = "Tu comentario fue enviado";
+$l['comment_error'] = "No se pudo enviar tu comentario";
+$l['ce_reasons'] = "Razon posible: Dejaste algo en blanco o tu comentario es muy corto.";
+$l['email'] = "Email";
+$l['url'] = "Pagina Web";
+$l['message'] = "Mensaje";
+$l['send_message'] = "Enviar";
+$l['contact_sent'] = "Se logro enviar tu mensaje";
+$l['contact_not_sent'] = "No se pudo enviar tu mensaje";
+$l['message_error'] = "Razon posible: Dejaste algo en blanco o tu mail no existe.";
+$l['backhome'] = "Regresar a Principal";
+$l['backarticle'] = "Regresar al Articulo";
+$l['read_more'] = "Leer mas...";
+$l['article_not_exist'] = "No existe el articulo";
+$l['code_validation'] = "Codigo de Verificacion:";
+$l['enter_validation_code'] = "Ingresar el codigo:";
+
+
+//***********************************
+// ADMINISTRATION LANGUAGE VARIABLES
+//***********************************
+$l['username'] = "Username";
+$l['password'] = "Password";
+$l['login'] = "Login";
+$l['logged_in'] = "You are Logged In";
+$l['log_out'] = "Logging out";
+$l['logout'] = "Logout";
+$l['settings'] = "Configuracion";
+$l['save_settings'] = "Guardar Configuracion";
+$l['article'] = "Articulo";
+$l['articles'] = "Articulos";
+$l['category'] = "Categoria";
+$l['categories'] = "Categorias";
+$l['add_category'] = "Nueva Categoria";
+$l['edit_category'] = "Editar Categoria";
+$l['delete_category'] = "Borrar Categoria";
+$l['description'] = "Descripcion";
+$l['publish_category'] = "Publicar categoria";
+$l['published'] = "Publicada";
+$l['unpublished'] = "No Publicada";
+$l['new_article'] = "Nuevo Articulo";
+$l['limit_article'] = "Limit front page article to a number of characters (0 = no limit)";
+$l['article_date'] = "Fecha del Articulo (enter a higher date for future posting)";
+$l['auto_html'] = "Auto Parrafo";
+$l['display_title'] = "Mostrar Titulo";
+$l['display_info'] = "Mostrar linea de info";
+$l['enable_commenting'] = "Permitir Comentarios";
+$l['customize'] = "Customizar";
+$l['server_time'] = "Time on Server";
+$l['future_posting'] = "Publicar en el Futuro";
+$l['publish_date'] = "Fecha de publicacion";
+$l['day'] = "Dia";
+$l['month'] = "Mes";
+$l['year'] = "Año";
+$l['hour'] = "Hora";
+$l['minute'] = "Minuto";
+$l['publish_article'] = "Publicar Articulo";
+$l['edit_comment'] = "Editar Comentario";
+$l['freeze_comments'] = "Congelar comentarios";
+$l['unfreeze_comments'] = "Descongelar Comentarios";
+$l['unpublished_articles'] = "Articulos sin publicar";
+$l['enable'] = "Activar";
+$l['submit_new_article'] = "Enviar";
+$l['operation_completed'] = "Operacion completada exitosamente!";
+$l['deleted_success'] = "Se borro con exito!";
+$l['edit_article'] = "Editar Articulo";
+$l['simple'] = "Simple";
+$l['advanced'] = "Avanzado";
+$l['images'] = "Imagenes";
+$l['attach_image'] = "Colocar image";
+$l['upload_image'] = "Subir Image";
+$l['upload'] = "Subir";
+$l['no_image'] = "Sin Imagen";
+$l['edit'] = "Editar";
+$l['delete_article'] = "Borrar articulo";
+$l['admin_error'] = "Error";
+$l['title_error'] = "Falto escribir el titulo o el titulo SEF.";
+$l['text_error'] = "Tienes que escribir algo";
+$l['back'] = "Regresar...";
+$l['comments'] = "Comentarios";
+$l['enabled'] = "Activado";
+$l['disabled'] = "Desactivado";
+$l['delete_comment'] = "Borrar Comentario";
+$l['title'] = "Title";
+$l['sef_title'] = "Search engine friendly title > SEF (Va a ser utilizado como un link al articulo)";
+$l['sef_title_cat'] = "Search engine friendly title > SEF (Va a ser utilizado como link a la categoria)";
+$l['text'] = "Texto";
+$l['position'] = "Posicion";
+$l['display_menu_item'] = "Mostrar en el menu";
+$l['left'] = "Izquierda";
+$l['center'] = "Centro";
+$l['right'] = "Derecha";
+$l['saved_images'] = "Imagenes Guardadas";
+$l['image_error'] = "No se pudo copiar la pagina";
+$l['error_category_seftitle_exists'] = "El titulo SEF de la categoria ya existe.";
+$l['error_category_name_exists'] = "El nombre de la categoria ya existe.";
+$l['error_category_name_empty'] = "Necesitas escribir un nombre para la categoria.";
+$l['error_category_seftitle_empty'] = "Necesitas escribir un titulo SEF para la categoria.";
+$l['error_not_logged_in'] = "Necesitas iniciar tu sesion para hacer eso.";
+$l['error_article_seftitle_exists'] = "The article SEF title allready exists.<br /><br /><strong>Be carefull:</strong> Due to the fact that when something goes wrong most posting options are lost, please check them before posting again.";
+$l['error_article_title_exists'] = "The article title allready exists.<br /><br /><strong>Be carefull:</strong> Due to the fact that when something goes wrong most posting options are lost, please check them before posting again.";
+$l['error_article_title_empty'] = "The article title cannot be empty.<br /><br /><strong>Be carefull:</strong> Due to the fact that when something goes wrong most posting options are lost, please check them before posting again.";
+$l['error_article_seftitle_empty'] = "The article SEF title cannot be empty.<br /><br /><strong>Be carefull:</strong> Due to the fact that when something goes wrong most posting options are lost, please check them before posting again.";
+$l['warning_delete'] = "Are you sure you want to delete this?"; //Javascript warning when trying to delete an article, category, comment or file.
+$l['make_sef_text'] = "Make SEF title"; //This is the name of the javascript link that creates the SEF titles.
+$l['error_article_seftitle_illegal'] = "The SEF title you entered contains illegal characters.<br />You can only user a-z, 0-9 _ and -<br /><br />A new SEF url has been selected from the title. Please check it.";
+$l['error_category_seftitle_illegal'] = "The SEF title you entered contains illegal characters.<br />You can only user a-z, 0-9 _ and -<br /><br />A new SEF url has been selected from the title. Please check it.";
+?>

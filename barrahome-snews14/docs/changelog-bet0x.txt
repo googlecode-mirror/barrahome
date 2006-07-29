@@ -1,0 +1,15 @@
+sNews 1.4 - MOD by bet0x
+
+* Added Module Support.
+* Formated files, separated from root folders.
+* Added simple template support.
+* Added tinymce and and verification code from sNews Forum (dont remember the usernames).
+* Separated config file from core.
+* Separated language from config file.
+
+Reference Manual:
+
+For modules make a file called "my_module.php" save in modules and call it. 
+
+Example: http://www.barrahome.com.ar/mod/test
+
